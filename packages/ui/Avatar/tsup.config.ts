@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig((options) => ({
-  entry: ['src/button.tsx'],
+  entry: ['src/index.ts'],
   format: ['cjs', 'esm'],
   dts: true,
   sourcemap: true,

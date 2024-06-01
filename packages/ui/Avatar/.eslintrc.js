@@ -1,4 +1,4 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: ["@xstyle/eslint-config/react.js"],
-};
+  extends: ['@xstyle/eslint-config/react.js'],
+}

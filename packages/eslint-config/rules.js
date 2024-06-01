@@ -1,6 +1,15 @@
 const fs = require('fs')
 
 module.exports = {
+  'unicorn/filename-case': [
+    'error',
+    {
+      cases: {
+        camelCase: true,
+        pascalCase: true,
+      },
+    },
+  ],
   'import/no-default-export': 'off',
   'unused-imports/no-unused-imports': 'error',
   'unused-imports/no-unused-vars': 'error',
