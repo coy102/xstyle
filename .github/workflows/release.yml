@@ -28,7 +28,7 @@ jobs:
             //registry.npmjs.org/:_authToken=$NPM_TOKEN
           EOF
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: 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
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
@@ -38,7 +38,7 @@ jobs:
           publish: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: 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
 
       - name: Send a Slack notification if a publish happens
         if: steps.changesets.outputs.published == 'true'
