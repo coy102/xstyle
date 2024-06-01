@@ -4,6 +4,7 @@ import borderRadius from './borderRadius'
 import colors from './colors'
 
 const config = {
+  content: ['./node_modules/@xstyle/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors,
