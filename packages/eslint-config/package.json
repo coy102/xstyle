@@ -1,5 +1,5 @@
 {
-  "name": "@xstyle/eslint-config",
+  "name": "@xstyle-test/eslint-config",
   "version": "0.0.1",
   "private": true,
   "files": [
