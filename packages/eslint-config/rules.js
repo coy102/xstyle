@@ -1,6 +1,11 @@
 const fs = require('fs')
 
 module.exports = {
+  'no-explicit-any': 'off',
+  '@typescript-eslint/no-unsafe-argument': 'off',
+  '@typescript-eslint/no-explicit-any': 'off',
+  'import/no-extraneous-dependencies': 'off',
+  '@typescript-eslint/explicit-function-return-type': 'off',
   'unicorn/filename-case': [
     'error',
     {
