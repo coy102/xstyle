@@ -19,7 +19,7 @@ module.exports = {
   parserOptions: {
     project,
   },
-  plugins: ["only-warn"],
+  plugins: ["typescript-sort-keys", "unused-imports"],
   globals: {
     React: true,
     JSX: true,
