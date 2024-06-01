@@ -1,4 +1,5 @@
 const { resolve } = require("node:path");
+const rules = require("./rules");
 
 const project = resolve(process.cwd(), "tsconfig.json");
 
@@ -25,7 +26,7 @@ module.exports = {
   parserOptions: {
     project,
   },
-  plugins: ["only-warn"],
+  plugins: ["typescript-sort-keys", "unused-imports"],
   globals: {
     React: true,
     JSX: true,
@@ -39,7 +40,5 @@ module.exports = {
   },
   ignorePatterns: ["node_modules/", "dist/"],
   // add rules configurations here
-  rules: {
-    "import/no-default-export": "off",
-  },
+  rules,
 };
