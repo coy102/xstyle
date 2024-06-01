@@ -1,5 +1,5 @@
 {
-  "name": "@xstyle/avatar",
+  "name": "@xstyle-test/avatar",
   "version": "0.0.1",
   "sideEffects": false,
   "license": "MIT",
@@ -17,8 +17,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@xstyle/eslint-config": "workspace:*",
-    "@xstyle/typescript-config": "workspace:*",
+    "@xstyle-test/eslint-config": "workspace:*",
+    "@xstyle-test/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",

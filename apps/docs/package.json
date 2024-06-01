@@ -1,5 +1,5 @@
 {
-  "name": "@xstyle/docs",
+  "name": "@xstyle-test/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "lint": "eslint ./stories/*.stories.tsx --max-warnings 0"
   },
   "dependencies": {
-    "@xstyle/button": "workspace:*",
-    "@xstyle/theme": "workspace:*",
+    "@xstyle-test/button": "workspace:*",
+    "@xstyle-test/theme": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.4.3",
@@ -27,8 +27,8 @@
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^7.6.17",
     "@vitejs/plugin-react": "^4.2.1",
-    "@xstyle/eslint-config": "workspace:*",
-    "@xstyle/typescript-config": "workspace:*",
+    "@xstyle-test/eslint-config": "workspace:*",
+    "@xstyle-test/typescript-config": "workspace:*",
     "eslint": "^8.57.0",
     "serve": "^14.2.1",
     "storybook": "^7.6.17",
