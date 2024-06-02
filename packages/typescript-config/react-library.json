@@ -3,10 +3,18 @@
   "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "jsx": "react",
-    "lib": ["dom", "ES2015"],
-    "module": "ESNext",
-    "target": "es6"
-    
+    "jsx": "react-jsx",
+    "target": "es2018",
+    "module": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
   }
 }
