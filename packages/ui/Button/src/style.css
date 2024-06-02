@@ -1,0 +1,48 @@
+.x_btn_wrapper {
+  @apply ring-offset-background 
+          focus-visible:ring-ring
+          inline-flex 
+          items-center 
+          justify-center 
+          whitespace-nowrap
+          text-sm
+          font-medium 
+          transition-colors 
+          focus-visible:outline-none
+          focus-visible:ring-2 
+          focus-visible:ring-offset-2 
+          disabled:pointer-events-none 
+          disabled:opacity-50;
+}
+
+.x_btn_outline-base {
+  @apply hover:bg-accent border bg-transparent;
+}
+
+.x_btn_default {
+  @apply bg-primary text-primary-foreground hover:bg-primary/90;
+}
+
+.x_btn_default_outline {
+  @apply text-primary border-primary x_btn_outline-base;
+}
+
+.x_btn_destructive {
+  @apply bg-destructive text-destructive-foreground hover:bg-destructive/90;
+}
+
+.x_btn_outline {
+  @apply border-input bg-background hover:bg-accent hover:text-accent-foreground border;
+}
+
+.x_btn_secondary {
+  @apply bg-secondary text-secondary-foreground hover:bg-secondary/80;
+}
+
+.x_btn_ghost {
+  @apply hover:bg-accent hover:text-accent-foreground;
+}
+
+.x_btn_link {
+  @apply text-primary underline-offset-4 hover:underline;
+}
