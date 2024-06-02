@@ -17,8 +17,8 @@
     "tsc": "tsc"
   },
   "devDependencies": {
-    "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.61",
     "@xstyle-test/eslint-config": "workspace:*",
     "@xstyle-test/theme": "workspace:*",
     "@xstyle-test/typescript-config": "workspace:*",

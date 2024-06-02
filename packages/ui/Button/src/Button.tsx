@@ -2,7 +2,7 @@ import { Slot } from '@radix-ui/react-slot'
 import { cn } from '@xstyle-test/theme'
 import type { VariantProps } from 'class-variance-authority'
 import { cva } from 'class-variance-authority'
-import React from 'react'
+import { type ButtonHTMLAttributes, forwardRef } from 'react'
 
 import './style.css'
 
@@ -41,13 +41,11 @@ const buttonVariants = cva('x_btn_wrapper', {
   },
 })
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
   asChild?: boolean
 }
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, rounded, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : 'button'
     return <Comp className={cn(buttonVariants({ variant, size, className, rounded }))} ref={ref} {...props} />
