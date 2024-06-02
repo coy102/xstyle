@@ -1,13 +1,17 @@
 {
   "name": "@xstyle-test/button",
-  "version": "1.1.4",
-  "license": "MIT",
+  "version": "1.1.6",
+  "sideEffects": false,
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
