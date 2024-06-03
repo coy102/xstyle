@@ -1,5 +1,11 @@
 # @xstyle-test/avatar
 
+## 1.1.2
+
+### Patch Changes
+
+- cb8c076: Fix packages and add husky
+
 ## 1.1.1
 
 ### Patch Changes
