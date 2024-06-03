@@ -1,5 +1,11 @@
 # @xstyle-test/button
 
+## 1.1.8
+
+### Patch Changes
+
+- cb8c076: Fix packages and add husky
+
 ## 1.1.7
 
 ### Patch Changes

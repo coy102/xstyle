@@ -1,5 +1,11 @@
 # @xstyle-test/theme
 
+## 1.0.2
+
+### Patch Changes
+
+- cb8c076: Fix packages and add husky
+
 ## 1.0.1
 
 ### Patch Changes
