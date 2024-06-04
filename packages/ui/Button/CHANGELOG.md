@@ -1,5 +1,11 @@
 # @xstyle-test/button
 
+## 1.1.9
+
+### Patch Changes
+
+- 4ebdc70: Test
+
 ## 1.1.8
 
 ### Patch Changes

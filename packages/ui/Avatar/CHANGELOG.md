@@ -1,5 +1,11 @@
 # @xstyle-test/avatar
 
+## 1.1.3
+
+### Patch Changes
+
+- 4ebdc70: Test
+
 ## 1.1.2
 
 ### Patch Changes
